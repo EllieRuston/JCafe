@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JCafe.MenuFood"
+             Title="Quick Bites">
+    <VerticalStackLayout>
+       <!--Item 1-->
+        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="180">
+        <StackLayout Orientation="Horizontal">
+                <Image Source="bagle.png" HeightRequest="150" 
+                       HorizontalOptions="Start"/>
+          
+            <StackLayout Orientation="Vertical" Padding="10">
+                    <!--Title-->
+                    <Label Text="Bagel"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource White}"/>
+                    <!--Caption-->
+                    <Label Text="freshly baked each evening"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="Caption" FontAttributes="Bold"
+                       TextColor="{StaticResource White}"
+                       Margin="0,10,0,0"></Label>
+                <!--Price-->
+                <Label Text="$3.00" Margin="0,50,0,0"
+                       HorizontalTextAlignment="End"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource White}"/>
+          </StackLayout>   
+        </StackLayout>
+        </Frame>
+
+        <!--Item 2-->
+        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="180">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="breakfast.png" HeightRequest="150" 
+                       HorizontalOptions="Start"/>
+
+                <StackLayout Orientation="Vertical" Margin="10">
+                    <!--Title-->
+                    <Label Text="Eggs Benedict"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource White}"
+                      />
+                    <!--Caption-->
+                    <Label LineBreakMode="WordWrap"
+                       FontSize="Caption" FontAttributes="Bold"
+                       TextColor="{StaticResource White}"
+                       Text="Poached eggs over bacon
+                        &#10;and spinach on a toasted 
+                        &#10;English Muffin topped with 
+                        &#10;Hollandaise sauce">
+                    </Label>
+                    <!--Price-->
+                    <Label Text="$3.00"
+                       HorizontalOptions="Start"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="StartAndExpand"
+                       FontSize="20" 
+                       TextColor="{StaticResource White}"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

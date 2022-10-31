@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+    <ContentPage 
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JCafe.Views.MenuPage"
+             Title="Menu">
+        <ScrollView>
+        <VerticalStackLayout >
+
+            <Frame BackgroundColor="#2f3237" Margin="20,20,20,10"
+                   CornerRadius="10" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="350" HeightRequest="200">
+
+                <Image Source="logo.png" 
+                       HeightRequest="200" 
+                       Aspect="AspectFit"/>
+            </Frame>
+
+        <Button Text="Espresso"
+                ImageSource="iconespresso.png"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Margin="15,10" Padding="20"
+                x:Name="btnEsp"
+                Clicked="btnEsp_Clicked"/>
+
+
+        <Button Text="Hot Drinks" 
+                ImageSource="iconhot.png"
+                FontSize="Large" 
+                FontAttributes="Bold" 
+                Margin="15" Padding="20"
+                x:Name="btnHot"
+                Clicked="btnHot_Clicked"/>
+
+        <Button Text="Cold Drinks"  
+                ImageSource="iconcold.png"
+                FontSize="Large" 
+                Margin="15" Padding="20"
+                x:Name="btnCold"
+                Clicked="btnCold_Clicked"/>
+        
+        <Button Text="Quick Bites" 
+                ImageSource="iconfood.png"
+                FontSize="Large" 
+                FontAttributes="Bold"
+                Margin="15" Padding="20"
+                x:Name="btnFood"
+                Clicked="btnFood_Clicked"/>
+        
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

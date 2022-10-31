@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="JCafe.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:JCafe"
+    xmlns:Views="clr-namespace:JCafe.Views"
+    
+    Shell.FlyoutBehavior="Disabled"
+    Title="Jules Cafe">
+    <!--menu bar bottom of page-->
+    <TabBar x:Name="MyTabBar">
+        <Tab Title="Menu" Icon="iconmenu.png">
+            <ShellContent Title="Jules Cafe" ContentTemplate="{DataTemplate Views:MenuPage}" Route="MenuPage" />
+        </Tab>
+        
+        <Tab Title="About" Icon="iconabout.png">
+            <ShellContent Title="About"  ContentTemplate="{DataTemplate Views:AboutPage}" Route="AboutPage"/>
+        </Tab>
+
+        <Tab Title="Map" Icon="iconmap.png">
+            <ShellContent Title="Map" ContentTemplate="{DataTemplate Views:MapPage}" Route="MapPage"/>
+        </Tab>
+    </TabBar>
+
+    
+
+</Shell>

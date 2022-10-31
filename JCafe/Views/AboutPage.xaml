@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JCafe.Views.AboutPage"
+             Title="About"> 
+    <StackLayout>
+    <VerticalStackLayout>
+        <Image Source="cafe.jpg"/>
+        <Label Text="Jules Cafe"
+               VerticalOptions="Center" 
+               HorizontalOptions="StartAndExpand"
+               FontSize="70"
+               Margin="35,20,0,30"/>
+        <Label Text="44A Kent Street &#10;Newmarket &#10;AUCKLAND &#10;1023"
+               Margin="35,0,35,0"
+               FontSize="Large"/>
+        <Label Text="+64 9 444 5555"
+               Margin="35,20,35,0"
+               FontSize="Body"/>
+        <Label Text="info@julescafe.co.nz"
+               Margin="35,10,35,10"
+               FontSize="Body"/>
+    </VerticalStackLayout>
+    <HorizontalStackLayout Margin="10" >
+        <!--social media buttons-->
+            <ImageButton Source="iconfb.png" 
+                         HeightRequest="60"
+                         WidthRequest="60"
+                         HorizontalOptions="Center" 
+                         BackgroundColor="#bee1e6"
+                         CornerRadius="10"
+                         Padding="5" Margin="35,0,10,0"/>
+        
+            <ImageButton Source="iconinsta.png" 
+                         HeightRequest="60"
+                         WidthRequest="60"
+                         HorizontalOptions="Center" 
+                         BackgroundColor="#f4acb7"
+                         CornerRadius="10"
+                         Padding="5" Margin="45,0,0,0"/>
+        </HorizontalStackLayout> 
+    </StackLayout>   
+</ContentPage>

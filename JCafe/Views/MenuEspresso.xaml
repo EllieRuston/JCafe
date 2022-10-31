@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JCafe.MenuEspresso"
+             Title="Espresso">
+    <VerticalStackLayout>
+        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="80">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cafe Americano"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+
+                <Label Text="$2.50" 
+                       HorizontalTextAlignment="End"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="80">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cafe Latte"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+
+                <Label Text="$3.00" 
+                       HorizontalTextAlignment="End"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+        </Frame>
+
+
+        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="80">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cappucino"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+
+                <Label Text="$3.50" 
+                       HorizontalTextAlignment="End"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>
