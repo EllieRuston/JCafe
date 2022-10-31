@@ -9,8 +9,8 @@
         <StackLayout Orientation="Horizontal">
                 <Image Source="bagle.png" HeightRequest="150" 
                        HorizontalOptions="Start"/>
-          
-            <StackLayout Orientation="Vertical" Padding="10">
+
+            <StackLayout Orientation="Vertical" Margin="10,0,0,0">
                     <!--Title-->
                     <Label Text="Bagel"
                        HorizontalTextAlignment="Start"
@@ -25,7 +25,7 @@
                        TextColor="{StaticResource White}"
                        Margin="0,10,0,0"></Label>
                 <!--Price-->
-                <Label Text="$3.00" Margin="0,50,0,0"
+                <Label Text="$3.00" Margin="0,60,0,0"
                        HorizontalTextAlignment="End"
                        FontSize="20" FontAttributes="Bold"
                        TextColor="{StaticResource White}"/>
@@ -39,16 +39,16 @@
                 <Image Source="breakfast.png" HeightRequest="150" 
                        HorizontalOptions="Start"/>
 
-                <StackLayout Orientation="Vertical" Margin="10">
+                <StackLayout Orientation="Vertical" Margin="10,0,0,0">
                     <!--Title-->
-                    <Label Text="Eggs Benedict"
+                    <Label Text="Eggs Benedict" 
                        HorizontalTextAlignment="Start"
                        VerticalOptions="Center"
                        FontSize="20" FontAttributes="Bold"
                        TextColor="{StaticResource White}"
                       />
                     <!--Caption-->
-                    <Label LineBreakMode="WordWrap"
+                    <Label LineBreakMode="WordWrap" Margin="0,10,0,0"
                        FontSize="Caption" FontAttributes="Bold"
                        TextColor="{StaticResource White}"
                        Text="Poached eggs over bacon
@@ -57,14 +57,12 @@
                         &#10;Hollandaise sauce">
                     </Label>
                     <!--Price-->
-                    <Label Text="$3.00"
-                       HorizontalOptions="Start"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="StartAndExpand"
-                       FontSize="20" 
+                    <Label Text="$3.00" Margin="100,12,0,0"
+                       FontSize="20" FontAttributes="Bold"
                        TextColor="{StaticResource White}"/>
                 </StackLayout>
             </StackLayout>
         </Frame>
+        
     </VerticalStackLayout>
 </ContentPage>

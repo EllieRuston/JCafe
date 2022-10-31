@@ -23,21 +23,26 @@
     </VerticalStackLayout>
     <HorizontalStackLayout Margin="10" >
         <!--social media buttons-->
+           
             <ImageButton Source="iconfb.png" 
                          HeightRequest="60"
                          WidthRequest="60"
                          HorizontalOptions="Center" 
                          BackgroundColor="#bee1e6"
                          CornerRadius="10"
-                         Padding="5" Margin="35,0,10,0"/>
-        
+                         Padding="5" Margin="35,0,10,0"
+                         Clicked="FB_Clicked">
+                
+            </ImageButton>
+
             <ImageButton Source="iconinsta.png" 
                          HeightRequest="60"
                          WidthRequest="60"
                          HorizontalOptions="Center" 
                          BackgroundColor="#f4acb7"
                          CornerRadius="10"
-                         Padding="5" Margin="45,0,0,0"/>
+                         Padding="5" Margin="45,0,0,0"
+                         Clicked="Instagram_Clicked"/>
         </HorizontalStackLayout> 
     </StackLayout>   
 </ContentPage>

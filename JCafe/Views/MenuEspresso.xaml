@@ -4,7 +4,8 @@
              x:Class="JCafe.MenuEspresso"
              Title="Espresso">
     <VerticalStackLayout>
-        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="80">
+        <!--Drink 1-->
+        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Cafe Americano"
                        HorizontalTextAlignment="Start"
@@ -20,8 +21,8 @@
                        TextColor="{StaticResource Primary}"/>
             </StackLayout>
         </Frame>
-
-        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="80">
+        <!--Drink 2-->
+        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Cafe Latte"
                        HorizontalTextAlignment="Start"
@@ -38,8 +39,8 @@
             </StackLayout>
         </Frame>
 
-
-        <Frame Background="{StaticResource Black}" Margin="20" HeightRequest="80">
+        <!--Drink 3-->
+        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Cappucino"
                        HorizontalTextAlignment="Start"
@@ -56,5 +57,62 @@
             </StackLayout>
         </Frame>
 
+        <!--Drink 4-->
+        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Single Shot"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+
+                <Label Text="$0.75" 
+                       HorizontalTextAlignment="End"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+        </Frame>
+
+        <!--Drink 5-->
+        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cloud Macchiato"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+
+                <Label Text="$3.50" 
+                       HorizontalTextAlignment="End"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+        </Frame>
+
+        <!--Drink 6-->
+        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Dolce Latte"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+
+                <Label Text="$4.50" 
+                       HorizontalTextAlignment="End"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"
+                       FontSize="20" FontAttributes="Bold"
+                       TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+        </Frame>
+
+        <Label Text="Add-on's availbe at our Espresso Bar" 
+               HorizontalTextAlignment="Center" Margin="0,10,0,0"
+               FontSize="Body"/>
     </VerticalStackLayout>
 </ContentPage>
