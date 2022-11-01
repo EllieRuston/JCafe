@@ -53,6 +53,7 @@
 	  <None Remove="Resources\Images\breakfast.png" />
 	  <None Remove="Resources\Images\cafe.jpg" />
 	  <None Remove="Resources\Images\logo.png" />
+	  <None Remove="Resources\Images\map.png" />
 	</ItemGroup>
 
 	<ItemGroup>

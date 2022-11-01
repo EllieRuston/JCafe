@@ -1,8 +1,5 @@
 namespace JCafe.Views;
-
-using Android.OS;
 using System.Diagnostics;
-using Xamarin.Google.Crypto.Tink.Proto;
 
 public partial class AboutPage : ContentPage
 {
