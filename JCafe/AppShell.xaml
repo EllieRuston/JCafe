@@ -8,6 +8,7 @@
     
     Shell.FlyoutBehavior="Disabled"
     Title="Jules Cafe">
+    
     <!--menu bar bottom of page-->
     <TabBar x:Name="MyTabBar">
         <Tab Title="Menu" Icon="iconmenu.png">
@@ -22,7 +23,5 @@
             <ShellContent Title="Map" ContentTemplate="{DataTemplate Views:MapPage}" Route="MapPage"/>
         </Tab>
     </TabBar>
-
-    
 
 </Shell>

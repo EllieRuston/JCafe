@@ -5,91 +5,56 @@
              Title="Hot Drinks">
     <VerticalStackLayout>
         <!--Drink 1-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Blond Cafe Latte"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Title}"/>
 
                 <Label Text="$3.75" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
         <!--Drink 2-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Caramel Macchiato"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Title}"/>
 
                 <Label Text="$4.25" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
 
         <!--Drink 3-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Skinny Mocha"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Title}"/>
 
                 <Label Text="$4.00" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
 
         <!--Drink 4-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Hot Coffee"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Title}"/>
 
                 <Label Text="$3.25" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                      Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
 
         <!--Drink 5-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Irish Coffee"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Title}"/>
 
                 <Label Text="$4.25" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                      Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
         

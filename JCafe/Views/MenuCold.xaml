@@ -6,78 +6,46 @@
 
     <VerticalStackLayout>
         <!--Drink 1-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Nitro Cold Brew"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
-
+                       Style="{StaticResource M_Title}"/>
                 <Label Text="3.75" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
         <!--Drink 2-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Iced Latte"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Title}"/>
 
                 <Label Text="$4.25" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
 
         <!--Drink 3-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Frappuccino"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
-
+                      Style="{StaticResource M_Title}"/>
                 <Label Text="$4.50" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
 
         <!--Drink 4-->
-        <Frame Background="{StaticResource Black}" Margin="20,10,20,10" HeightRequest="80">
+        <Frame Style="{StaticResource M_Frame}" HeightRequest="80">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Creamy Iced Coffee"
-                       HorizontalTextAlignment="Start"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
-
+                       Style="{StaticResource M_Title}"/>
                 <Label Text="$3.50" 
-                       HorizontalTextAlignment="End"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"
-                       FontSize="20" FontAttributes="Bold"
-                       TextColor="{StaticResource Primary}"/>
+                       Style="{StaticResource M_Price}"/>
             </StackLayout>
         </Frame>
 
-
-        <Label Text="Let your arrista know your preferred &#10;brew method" 
+        <Label Text="Let your barrista know your preferred &#10;brew method" 
                HorizontalTextAlignment="Center" Margin="0,10,0,0"
                FontSize="Body"/>
     </VerticalStackLayout>

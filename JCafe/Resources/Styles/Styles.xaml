@@ -7,7 +7,61 @@
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
     </Style>
+<!--Custom Menu Display-->
+    <Style x:Key="M_Frame" TargetType="Frame">
+        <Setter Property="Background" Value="{StaticResource Black}"/>
+        <Setter Property="Margin" Value="20,10,20,10"/>
+    </Style>
 
+    <Style x:Key="M_Title" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+
+    <Style x:Key="M_Price" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="End"/>
+        <Setter Property="HorizontalOptions" Value="EndAndExpand"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+<!--FoodMenu-->
+    <!--Background-->
+    <Style x:Key="F_Frame" TargetType="Frame">
+        <Setter Property="Background" Value="{StaticResource Black}"/>
+        <Setter Property="Margin" Value="20"/>
+        <Setter Property="HeightRequest" Value="180"/>
+    </Style>
+    <!--Title-->
+    <Style x:Key="F_Title" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource White}"/>
+    </Style>
+    <!--Caption-->
+    <Style x:Key="F_Cap" TargetType="Label">
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontSize" Value="Caption"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource White}"/>
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+    <!--Price-->
+    <Style x:Key="F_Price" TargetType="Label">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource White}"/>
+    </Style>
+    
+    
     <Style TargetType="IndicatorView">
         <Setter Property="IndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}"/>
         <Setter Property="SelectedIndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray100}}"/>

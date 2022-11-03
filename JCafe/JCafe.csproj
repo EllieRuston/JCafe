@@ -49,11 +49,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\map.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\bagle.png" />
 	  <None Remove="Resources\Images\breakfast.png" />
 	  <None Remove="Resources\Images\cafe.jpg" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\map.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AndroidResource Include="Resources\Images\map.png" />
 	</ItemGroup>
 
 	<ItemGroup>

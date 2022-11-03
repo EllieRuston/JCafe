@@ -17,8 +17,8 @@ public partial class AboutPage : ContentPage
 		}
 		catch (Exception ex)
 		{
-			// error message
-		}
+            await DisplayAlert("Error", ex.Message, "OK");
+        }
 	}
 
 	private async void Instagram_Clicked(object sender, EventArgs e)
@@ -30,7 +30,7 @@ public partial class AboutPage : ContentPage
         }
         catch (Exception ex)
         {
-            // error message
+			await DisplayAlert("Error", ex.Message, "OK");
         }
        
 	}

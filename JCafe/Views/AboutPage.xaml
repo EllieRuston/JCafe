@@ -5,12 +5,15 @@
              Title="About"> 
     <StackLayout>
     <VerticalStackLayout>
+        <!--Shop Image-->
         <Image Source="cafe.jpg"/>
+        <!--Shop Name-->
         <Label Text="Jules Cafe"
                VerticalOptions="Center" 
                HorizontalOptions="StartAndExpand"
                FontSize="70"
                Margin="35,20,0,30"/>
+        <!--Contact Details-->
         <Label Text="44A Kent Street &#10;Newmarket &#10;AUCKLAND &#10;1023"
                Margin="35,0,35,0"
                FontSize="Large"/>
@@ -21,9 +24,9 @@
                Margin="35,10,35,10"
                FontSize="Body"/>
     </VerticalStackLayout>
-    <HorizontalStackLayout Margin="10" >
+        
         <!--social media buttons-->
-           
+        <HorizontalStackLayout Margin="10" >
             <ImageButton Source="iconfb.png" 
                          HeightRequest="60"
                          WidthRequest="60"
@@ -31,9 +34,7 @@
                          BackgroundColor="#bee1e6"
                          CornerRadius="10"
                          Padding="5" Margin="35,0,10,0"
-                         Clicked="FB_Clicked">
-                
-            </ImageButton>
+                         Clicked="FB_Clicked"/>
 
             <ImageButton Source="iconinsta.png" 
                          HeightRequest="60"

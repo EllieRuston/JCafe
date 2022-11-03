@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JCafe.Views.MapPage"
              Title="Map">
-    <VerticalStackLayout>
+    <VerticalStackLayout>d
+        <!--Map view-->
         <WebView Source="https://mobile.here.com/p/h-aHR0cHM6Ly9wbGFjZXMuYXBpLmhlcmUuY29tL3BsYWNlcy92MS9wbGFjZXMvaGVyZTphZjpzdHJlZXRzZWN0aW9uOmZvc1lCUHBsalBZZDVZVzdaLU9LbEI6RUFJYUF6RTJZUT9hcHBfaWQ9M0tJUWxzMkRTS2xOV2ZkYXNwQjkmYXBwX2NvZGU9ZjJ2RG4xVFVZRVZuNGtZdHdLMzd5dw%253D%253D?msg=16a%20Kent%20St"
                 WidthRequest="400" HeightRequest="590"/>
+        <!--Open external app for navigation-->
         <Button Text="Get Directions" Margin="20"
                 Clicked="MapButton_Clicked"/>
     </VerticalStackLayout>
